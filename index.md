@@ -12,7 +12,7 @@ If you are interested in participating in the challenge, please fill out [this G
 
 The tentative schedule for the VoiceMOS challenge is as follows:
 
-* Monday April 24: Deadline to register.  CodaLab page and enhanced speech track go live.
+* Monday April 24: CodaLab page and enhanced speech track go live.
 * Wednesday May 24: BC and VCC samples released to VoiceMOS participants.
 * Wednesday June 14: Predictions for BC and SVCC tracks due.
 * Friday June 16: BC and SVCC release their listening test results.
