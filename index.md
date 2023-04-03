@@ -1,59 +1,51 @@
-## Announcement
+## Announcing the VoiceMOS Challenge 2023!
 
-**The VoiceMOS Challenge 2023 will be announced soon!  The 2023 challenge will focus on real-world out-of-domain MOS prediction tasks.  Watch this space!**
+Last year we ran [the first edition of the VoiceMOS Challenge](https://voicemos-challenge-2022.github.io), a shared task for Mean Opinion Score prediction of synthesized speech.  22 teams from academia and industry participated, and we had a special session about the challenge at Interspeech.  The main task was MOS prediction for a large-scale, diverse dataset of synthesized speech from text-to-speech and voice conversion systems, and an out-of-domain track focused on MOS prediction for a separate listening test using only a small amount of labeled data.
 
-## The VoiceMOS Challenge 2022
+This year's challenge will emphasize **real-world and challenging out-of-domain MOS prediction** with three tracks for three different voice evaluation scenarios.  In collaboration with this year's [Blizzard Challenge](https://www.synsig.org/index.php/Blizzard_Challenge_2023) and [Singing Voice Conversion Challenge](http://www.vc-challenge.org), we will have a **French speech synthesis track** and a **singing voice conversion track.**  Samples from BC and SVCC teams will be provided while those challenges' listening tests are still ongoing, and the task is to predict MOS ahead of the true ratings becoming known.  We will also have a third **noisy and enhanced speech track** with a leaderboard on CodaLab.
 
-**The VoiceMOS Challenge 2022 has ended!  Material from the challenge will remain available online.**
-**Read our summary paper of the challenge [here](https://arxiv.org/abs/2203.11389).**
+### Participate
 
-Human listening tests are the gold standard for evaluating synthesized speech.  Objective measures of speech quality have low correlation with human ratings, and the generalization abilities of current data-driven quality prediction systems suffer significantly from domain mismatch.  The VoiceMOS Challenge aims to encourage research in the area of automatic prediction of Mean Opinion Scores (MOS) for synthesized speech.   This challenge has two tracks:
+If you are interested in participating in the challenge, please fill out [this Google form](https://forms.gle/kcLc69Wa4Q97rSNq7).  Same as last year's challenge, there is no fee to participate.  **Please note that this year, we require an institutional email address (e.g., university or company) for team registration.**
 
- * Main track: We recently collected a large-scale dataset of MOS ratings for a large variety of text-to-speech and voice conversion systems spanning many years, and this challenge releases this data to the public for the first time as the main track dataset.
- * Out-of-domain track: The data for this track comes from a different listening test from the main track.  The purpose of this track is to study the generalization ability of proposed MOS prediction models to a different listening test context.  A smaller amount of labeled data is made available to participants, and unlabeled audio samples from the same listening test are made available as well, to encourage exploration of unsupervised and semi-supervised approaches.
+### Tentative schedule
 
-Participation is open to all.  The main track is required for all participants, and the out-of-domain track is optional.  This challenge has preliminarily been accepted as a special session for Interspeech 2022, and participants are strongly encouraged to submit papers to the special session.  The focus of the special session is on understanding and comparing MOS prediction techniques using a standardized dataset.
+The tentative schedule for the VoiceMOS challenge is as follows:
 
-## Papers
+* Monday April 17: CodaLab page and enhanced speech track go live
+* Wednesday May 24: BC and VCC samples released to VoiceMOS participants
+* Wednesday June 14: Predictions for BC and SVCC tracks due
+* Friday June 16: BC and SVCC release their listening test results
+* Friday June 23: VoiceMOS Challenge results for French and Singing tracks announced
+* Friday June 30: System descriptions due
 
-The following papers were presented at the VoiceMOS Challenge special session at Interspeech 2022:
+### Rules
 
-* ["The VoiceMOS Challenge 2022."](https://www.isca-speech.org/archive/interspeech_2022/huang22f_interspeech.html) Wen Chin Huang (Nagoya University), Erica Cooper (National Institute of Informatics), Yu Tsao (Academia Sinica), Hsin-Min Wang (Academia Sinica), Tomoki Toda (Nagoya University) and Junichi Yamagishi (National Institute of Informatics)
-* ["The ZevoMOS entry to VoiceMOS Challenge 2022."](https://www.isca-speech.org/archive/interspeech_2022/stan22_interspeech.html) Adriana Stan (Communications Department, Technical University of Cluj-Napoca)
-* ["UTMOS: UTokyo-SaruLab System for VoiceMOS Challenge 2022."](https://www.isca-speech.org/archive/interspeech_2022/saeki22c_interspeech.html) Takaaki Saeki (The University of Tokyo), Detai Xin (The University of Tokyo), Wataru Nakata (The University of Tokyo), Tomoki Koriyama (The University of Tokyo), Shinnosuke Takamichi (University of Tokyo) and Hiroshi Saruwatari (The University of Tokyo)
-* ["Automatic Mean Opinion Score Estimation with Temporal Modulation Features on Gammatone Filterbank for Speech Assessment."](https://www.isca-speech.org/archive/interspeech_2022/nguyen22b_interspeech.html) Huy Nguyen (Japan Advanced Institute of Science and Technology), Kai Li (Japan advanced institute of science and technology) and Masashi Unoki (JAIST)
-* ["Using Rater and System Metadata to Explain Variance in the VoiceMOS Challenge 2022 Dataset."](https://www.isca-speech.org/archive/interspeech_2022/chinen22_interspeech.html) Michael Chinen (Google), Jan Skoglund (Google), Chandan K. A. Reddy (Google), Alessandro Ragano (University College Dublin) and Andrew Hines (University College Dublin)
-* ["DDOS: A MOS Prediction Framework utilizing Domain Adaptive Pre-training and Distribution of Opinion Scores."](https://www.isca-speech.org/archive/interspeech_2022/tseng22b_interspeech.html) Wei-Cheng Tseng (National Taiwan University), Wei-Tsung Kao (National Taiwan University) and Hung-yi Lee (National Taiwan University (NTU)
+* Registration must be done with an institutional email address (e.g., university or company), not a personal one.
+* Participants are required submit a system description after the challenge ends.
+* Participation in all three tracks is required.
+* Any **public** dataset may be used to develop your prediction system, and datasets used must be reported in the system description.  Use of proprietary datasets, including collecting your own MOS ratings, is not permitted.
+* If you are already participating in BC or SVCC, you are absolutely welcome to participate in the VoiceMOS Challenge as well.  However, it is not permitted to use your own BC or VCC synthesis systems to generate additional audio samples to use for developing your MOS predictor.
 
-The following team papers were also presented at Interspeech 2022:
-* ["A Transfer and Multi-Task Learning based Approach for MOS Prediction."](https://www.isca-speech.org/archive/interspeech_2022/tian22d_interspeech.html) Xiaohai Tian, Kaiqi Fu, Shaojun Gao, Yiwei Gu, Kai Wang, Wei Li and Zejun Ma
-* ["Fusion of Self-supervised Learned Models for MOS Prediction."](https://www.isca-speech.org/archive/interspeech_2022/yang22o_interspeech.html) Zhengdong Yang, Wangjin Zhou, Chenhui Chu, Sheng Li, Raj Dabre, Raphael Rubino and Yi Zhao
+### Suggested public datasets
 
+* [Blizzard Challenge 2023 training data and resources](https://zenodo.org/record/7560290#.ZCoqES8Rr0p)
+* [Singing Voice Conversion Challenge 2023 training data and resources]()
+* [The BVCC Dataset](https://zenodo.org/record/6572573#.ZCorDy8Rr0o)
+* [The SOMOS Dataset](https://zenodo.org/record/7119400#.ZCorKy8Rr0o)
+* [Data from past Blizzard Challenges](https://www.cstr.ed.ac.uk/projects/blizzard/data.html)  (audio samples overlap with BVCC, but labels are from separate listening tests)
 
-## Participate
+### Open-source MOS predictors:
 
-The challenge has ended, but you can still access the CodaLab challenge page [here](https://codalab.lisn.upsaclay.fr/competitions/695).
+These were the baseline systems in last year's challenge:
+* [SSL-MOS](https://github.com/nii-yamagishilab/mos-finetune-ssl)
+* [LDNet](https://github.com/unilight/LDNet)
+* [MOSA-Net](https://github.com/dhimasryan/MOSA-Net-Cross-Domain)
 
-You can also find the BVCC dataset that was used in the challenge [here](https://zenodo.org/record/6572573#.Yphw5y8RprQ).
+### Publication opportunities
 
-<!-- To participate in the challenge, you need to complete **both** of these two steps:
+To be announced.
 
-1. Make an account on CodaLab and register for the challenge [here](https://codalab.lisn.upsaclay.fr/competitions/695).  Please only register one account for your team.  Please also be patient as registration needs to be manually approved; we will try to approve all registrations within a day.
-
-2. Fill out [this Google Form here](https://docs.google.com/forms/d/e/1FAIpQLSfvXt5hLRmiICN2SwmInWAAStgCtwC6a8XyzITZ6bt-2gt1HQ/viewform) about your team.
-  We use this information to match your CodaLab account to your team.
-  
-Once your account is approved on CodaLab, you will be able to see information about how to download the data, etc.  -->
-
-## Schedule
-
-The schedule for the challenge is as follows:
-
-* Release of main track and out-of-domain training data: current
-* Release of evaluation data / start of test phase: February 21, 2022
-* Test phase results submission deadline: February 28, 2022
-* Results sent to participant: March 7, 2022
-* Interspeech Paper submission deadline: March 21, 2022
 
 ## Organizers
 
