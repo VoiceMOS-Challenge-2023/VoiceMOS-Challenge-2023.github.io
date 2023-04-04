@@ -30,10 +30,11 @@ The tentative schedule for the VoiceMOS challenge is as follows:
 ### Suggested public datasets
 
 * [Blizzard Challenge 2023 training data and resources](https://zenodo.org/record/7560290#.ZCoqES8Rr0p)
-* [Singing Voice Conversion Challenge 2023 training data and resources]()
+* [Recommended datasets for SVCC](http://vc-challenge.org/rules.html)  (see the section "Special rules on additional datasets")
 * [The BVCC Dataset](https://zenodo.org/record/6572573#.ZCorDy8Rr0o)
 * [The SOMOS Dataset](https://zenodo.org/record/7119400#.ZCorKy8Rr0o)
 * [Data from past Blizzard Challenges](https://www.cstr.ed.ac.uk/projects/blizzard/data.html)  (audio samples overlap with BVCC, but labels are from separate listening tests)
+* [Data for the DNS Challenge](https://github.com/microsoft/DNS-Challenge/)
 
 ### Open-source MOS predictors:
 
