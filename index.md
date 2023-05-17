@@ -44,7 +44,7 @@ These were the baseline systems in last year's challenge:
 
 ### Publication opportunities
 
-This year's challenge is currently under review for a possible special session at ASRU 2023.
+We are happy to announce that this year's challenge has been accepted as a Challenge Special Session at ASRU 2023!
 
 
 ## Organizers
