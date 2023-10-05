@@ -4,9 +4,19 @@ Last year we ran [the first edition of the VoiceMOS Challenge](https://voicemos-
 
 This year's challenge will emphasize **real-world and challenging zero-shot out-of-domain MOS prediction** with three tracks for three different voice evaluation scenarios.  In collaboration with this year's [Blizzard Challenge](https://www.synsig.org/index.php/Blizzard_Challenge_2023) and [Singing Voice Conversion Challenge](http://www.vc-challenge.org), we will have a **French speech synthesis track** and a **singing voice conversion track.**  Samples from BC and SVCC teams will be provided while those challenges' listening tests are still ongoing, and the task is to predict MOS ahead of the true ratings becoming known.  We will also have a third **noisy and enhanced speech track** with a leaderboard on CodaLab.  **Unlike last year, no MOS-labelled audio data from the target domains will be provided.**  This is to reflect a real-world MOS prediction scenario.  Participants are encouraged to develop MOS predictors that are flexible and generalizeable to a wide variety of audio evaluation tasks.  Like last year, the primary evaluation metrics for MOS prediction will focus on **correct ranking** of synthesis systems in each track.  Teams may participate in any subset of the three tracks.
 
-### Participate
+### The VoiceMOS Challenge 2023 has ended!
 
-If you are interested in participating in the challenge, please fill out [this Google form](https://forms.gle/kcLc69Wa4Q97rSNq7).  Same as last year's challenge, there is no fee to participate.  **Please note that this year, we require an institutional email address (e.g., university or company) for team registration.**
+Thanks so much to everyone who participated!  The VoiceMOS Challenge 2023 was accepted as a special session at ASRU 2023.
+
+Challenge summary paper preprint: [https://arxiv.org/abs/2310.02640](https://arxiv.org/abs/2310.02640)
+
+The Track 3 TMHINT-QI(S) test phase data is described here: [A Study on Incorporating Whisper for Robust Speech Assessment](https://arxiv.org/pdf/2309.12766.pdf) by Ryandhimas E. Zezario, Yu-Wen Chen, Szu-Wei Fu, Yu Tsao, Hsin-Min Wang, and Chiou-Shann Fuh.
+
+More challenge-related publications to be added shortly!
+
+<!-- ### Participate
+
+If you are interested in participating in the challenge, please fill out [this Google form](https://forms.gle/kcLc69Wa4Q97rSNq7).  Same as last year's challenge, there is no fee to participate.  **Please note that this year, we require an institutional email address (e.g., university or company) for team registration.** -->
 
 ### Tentative schedule
 
@@ -42,10 +52,10 @@ These were the baseline systems in last year's challenge:
 * [LDNet](https://github.com/unilight/LDNet)
 * [MOSA-Net](https://github.com/dhimasryan/MOSA-Net-Cross-Domain)
 
-### Publication opportunities
+<--! ### Publication opportunities
 
 We are happy to announce that this year's challenge has been accepted as a Challenge Special Session at ASRU 2023!
-
+-->
 
 ## Organizers
 
