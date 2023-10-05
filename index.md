@@ -52,7 +52,7 @@ These were the baseline systems in last year's challenge:
 * [LDNet](https://github.com/unilight/LDNet)
 * [MOSA-Net](https://github.com/dhimasryan/MOSA-Net-Cross-Domain)
 
-<--! ### Publication opportunities
+<!-- ### Publication opportunities
 
 We are happy to announce that this year's challenge has been accepted as a Challenge Special Session at ASRU 2023!
 -->
