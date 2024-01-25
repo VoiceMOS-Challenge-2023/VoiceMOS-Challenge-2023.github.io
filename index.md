@@ -1,18 +1,26 @@
 ## Announcing the VoiceMOS Challenge 2023!
 
-Last year we ran [the first edition of the VoiceMOS Challenge](https://voicemos-challenge-2022.github.io), a shared task for Mean Opinion Score prediction of synthesized speech.  22 teams from academia and industry participated, and we had a special session about the challenge at Interspeech.  The main task was MOS prediction for a large-scale, diverse dataset of synthesized speech from text-to-speech and voice conversion systems, and an out-of-domain track focused on MOS prediction for a separate listening test using only a small amount of labeled data.
+In 2022 we ran [the first edition of the VoiceMOS Challenge](https://voicemos-challenge-2022.github.io), a shared task for Mean Opinion Score prediction of synthesized speech.  22 teams from academia and industry participated, and we had a special session about the challenge at Interspeech.  The main task was MOS prediction for a large-scale, diverse dataset of synthesized speech from text-to-speech and voice conversion systems, and an out-of-domain track focused on MOS prediction for a separate listening test using only a small amount of labeled data.
 
-This year's challenge will emphasize **real-world and challenging zero-shot out-of-domain MOS prediction** with three tracks for three different voice evaluation scenarios.  In collaboration with this year's [Blizzard Challenge](https://www.synsig.org/index.php/Blizzard_Challenge_2023) and [Singing Voice Conversion Challenge](http://www.vc-challenge.org), we will have a **French speech synthesis track** and a **singing voice conversion track.**  Samples from BC and SVCC teams will be provided while those challenges' listening tests are still ongoing, and the task is to predict MOS ahead of the true ratings becoming known.  We will also have a third **noisy and enhanced speech track** with a leaderboard on CodaLab.  **Unlike last year, no MOS-labelled audio data from the target domains will be provided.**  This is to reflect a real-world MOS prediction scenario.  Participants are encouraged to develop MOS predictors that are flexible and generalizeable to a wide variety of audio evaluation tasks.  Like last year, the primary evaluation metrics for MOS prediction will focus on **correct ranking** of synthesis systems in each track.  Teams may participate in any subset of the three tracks.
+The 2023 challenge emphasized **real-world and challenging zero-shot out-of-domain MOS prediction** with three tracks for three different voice evaluation scenarios.  In collaboration with this year's [Blizzard Challenge](https://www.synsig.org/index.php/Blizzard_Challenge_2023) and [Singing Voice Conversion Challenge](http://www.vc-challenge.org), we had a **French speech synthesis track** and a **singing voice conversion track.**  Samples from BC and SVCC teams were provided while those challenges' listening tests are still ongoing, and the task was to predict MOS ahead of the true ratings becoming known.  We also had a third **noisy and enhanced speech track** with a leaderboard on CodaLab.  **Unlike in 2022, no MOS-labelled audio data from the target domains was provided.**  This was to reflect a real-world MOS prediction scenario.  Participants were encouraged to develop MOS predictors that are flexible and generalizeable to a wide variety of audio evaluation tasks.  As in 2022, the primary evaluation metrics for MOS prediction focused on **correct ranking** of synthesis systems in each track.  Teams were allowed to participate in any subset of the three tracks.
 
 ### The VoiceMOS Challenge 2023 has ended!
 
 Thanks so much to everyone who participated!  The VoiceMOS Challenge 2023 was accepted as a special session at ASRU 2023.
 
-Challenge summary paper preprint: [https://arxiv.org/abs/2310.02640](https://arxiv.org/abs/2310.02640)
-
 The Track 3 TMHINT-QI(S) test phase data is described here: [A Study on Incorporating Whisper for Robust Speech Assessment](https://arxiv.org/pdf/2309.12766.pdf) by Ryandhimas E. Zezario, Yu-Wen Chen, Szu-Wei Fu, Yu Tsao, Hsin-Min Wang, and Chiou-Shann Fuh.
 
-More challenge-related publications to be added shortly!
+<!-- More challenge-related publications to be added shortly! -->
+
+### VoiceMOS 2023 Publications
+
+Challenge summary paper: [The VoiceMOS Challenge 2023: Zero-Shot Subjective Speech Quality Prediction for Multiple Domains](https://doi.org/10.1109/ASRU57964.2023.10389763)
+
+[LE-SSL-MOS: Self-Supervised Learning MOS Prediction with Listener Enhancement](https://doi.org/10.1109/ASRU57964.2023.10389788)
+
+[SQAT-LD: SPeech Quality Assessment Transformer Utilizing Listener Dependent Modeling for Zero-Shot Out-of-Domain MOS Prediction](https://doi.org/10.1109/ASRU57964.2023.10389681)
+
+
 
 <!-- ### Participate
 
