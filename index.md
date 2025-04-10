@@ -65,6 +65,8 @@ These were the baseline systems in last year's challenge:
 We are happy to announce that this year's challenge has been accepted as a Challenge Special Session at ASRU 2023!
 -->
 
+<!-- Test -->
+
 ## Organizers
 
 * Wen-Chin Huang (Nagoya University, Japan)
